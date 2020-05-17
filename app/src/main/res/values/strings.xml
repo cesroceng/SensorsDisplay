@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SensorsDisplay</string>
+    <string name="ambient_temp">Ambient air temperature:</string>
+    <string name="pressure">Pressure:</string>
+    <string name="illuminance">Illuminance:</string>
+    <string name="ambient_humidity">Ambient relative humidity:</string>
+    <string name="sensor_timeout">Sensor Read Timeout:</string>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ambient_temp"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/ambient_temp" />
+
+    <TextView
+        android:id="@+id/pressure"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/pressure" />
+
+    <TextView
+        android:id="@+id/illuminance"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="281dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/illuminance" />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="281dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/ambient_humidity" />
+
+    <TextView
+        android:id="@+id/sensor_timeout"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="281dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/sensor_timeout" />
+
+    <SeekBar
+        android:id="@+id/timeout_selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="1" />
+
+</LinearLayout>
